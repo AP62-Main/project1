@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Prasad - Portfolio</title>
+    <style>
+      /* Reset and base styles */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f7f8;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header {
+        background-color: #007acc;
+        padding: 15px 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        margin: 0 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+      nav ul li a:hover {
+        color: #ffcc00;
+      }
+      section {
+        max-width: 900px;
+        margin: 40px auto;
+        background: white;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+      h1, h2 {
+        color: #007acc;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #555;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        color: #444;
+        font-size: 16px;
+      }
+      ul li {
+        margin-bottom: 8px;
+      }
+      .project {
+        margin-bottom: 25px;
+        padding: 15px;
+        border-left: 5px solid #007acc;
+        background-color: #e9f1fb;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
+      a {
+        color: #007acc;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: #005f99;
+      }
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #007acc;
+        color: white;
+        font-weight: 600;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 40px;
+      }
+      @media (max-width: 600px) {
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+        nav ul li {
+          margin: 10px 0;
+        }
+        section {
+          margin: 20px 15px;
+          padding: 20px;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Aditya, a passionate web developer and designer.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction about yourself. What drives you? What are your goals and values? You can mention your journey, experiences, and background.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git)</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Personal Blog</h3>
+            <p>Description of the project. What technologies did you use? What challenges did you face? Include links to the project or GitHub repo if applicable.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Portfolio Website</h3>
+            <p>Description of the project. What did you learn from this project?</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: nine7studios@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aditya-prasad-1274052a1/">Your LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/AP62-Main">Your GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aditya Prasad. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
